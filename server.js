@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 const bcrypt = require('bcryptjs');
 
 const app = express();
-const PORT = 4000;
+const PORT = 443;
 
 app.use(bodyParser.json());
 app.use(cookieParser());
